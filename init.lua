@@ -17,3 +17,4 @@ require("config.lazy")
 -- -- }
 
 vim.opt.wrap = true
+vim.cmd("source ~/.config/nvim/util.vim")

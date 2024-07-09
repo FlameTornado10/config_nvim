@@ -30,7 +30,6 @@ keymap("n", "<F4>", ":bd<CR>", opts)
 -- keymap("n", "<C-q>", "<C-o>:bd#<CR>", opts)
 
 local function my_callback()
-  --vim.cmd("tabnew")
   print("Callback function executed!")
 end
 keymap("n", "<leader>cb", "INGORED", { callback = my_callback })
